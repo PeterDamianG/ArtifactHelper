@@ -1,0 +1,26 @@
+{
+  "name": "artifacthelper",
+  "version": "0.0.1",
+  "description": "App for Artifact Dota 2 Card Game, helper about news, changelogs, cards, decks and game.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "Artifact",
+    "Dota",
+    "Card",
+    "Game",
+    "App",
+    "Helper."
+  ],
+  "author": "Peter Damian Gomez",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.9"
+  }
+}
