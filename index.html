@@ -5,9 +5,14 @@
     <title>Artifact Helper Main</title>
     <link href="css/goudytrajanfont.css" rel="stylesheet" type="text/css"/>
     <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sidenav.css" rel="stylesheet" type="text/css"/>
     <link href="css/squareimagelinks.css" rel="stylesheet" type="text/css"/>
+    <script src="js/fetching.js" defer></script>
+    <script src="js/sidenav.js" defer></script>
+    <script src="js/translate.js" defer></script>
   </head> 
   <body>
+    <nav id="sidenav"></nav>
     <video preload="preload"  id="background_video" autoplay loop muted>
       <source src="video/bgloop.webm" type="video/webm"/>
     </video>
@@ -17,32 +22,48 @@
       <a href="news.html">
         <section class="img"><img src="img/mainbutton/news.jpg" alt="NewsImage"></section>
         <section class="info">
-          <h3>News</h3>
-          <p>All news about Artifact from official web page.</p>
+          <h3 id="main_news"></h3>
+          <p id="main_newsdesc"></p>
       </section></a></section>
       <!-- ChangeLogs Button -->
       <section class="boxing square effect">
       <a href="changelogs.html">
         <section class="img"><img src="img/mainbutton/changelog.jpg" alt="ChangeLogsImage"></section>
         <section class="info">
-          <h3>ChangeLogs</h3>
-          <p>Changes between versions.</p>
+          <h3 id="main_changelogs"></h3>
+          <p id="main_changelogsdesc"></p>
       </section></a></section>
       <!-- Decks and Cards Button -->
       <section class="boxing square effect">
       <a href="deckscards.html">
         <section class="img"><img src="img/mainbutton/deckscards.jpg" alt="DecksandCardsImage"></section>
         <section class="info">
-          <h3>Decks/Cards</h3>
-          <p>Tool to review and see complete cards and decks.</p>
+          <h3 id="main_deckscards"></h3>
+          <p id="main_deckscardsdesc"></p>
+      </section></a></section>
+      <!-- Statistics Button -->
+      <section class="boxing square effect">
+      <a href="statistics.html">
+        <section class="img"><img src="img/mainbutton/statistics.jpg" alt="StatisticsImage"></section>
+        <section class="info">
+          <h3 id="main_statistics"></h3>
+          <p id="main_statisticsdesc"></p>
       </section></a></section>
       <!-- Config Button -->
       <section class="boxing square effect">
       <a href="config.html">
         <section class="img"><img src="img/mainbutton/config.jpg" alt="ConfigImage"></section>
         <section class="info">
-          <h3>Configuration</h3>
-          <p>Options on the application.</p>
+          <h3 id="main_config"></h3>
+          <p id="main_configdesc"></p>
+      </section></a></section>
+      <!-- About Button -->
+      <section class="boxing square effect">
+      <a href="about.html">
+        <section class="img"><img src="img/mainbutton/about.jpg" alt="AboutImage"></section>
+        <section class="info">
+          <h3 id="main_about"></h3>
+          <p id="main_aboutdesc"></p>
       </section></a></section>
     </section>
   </body>

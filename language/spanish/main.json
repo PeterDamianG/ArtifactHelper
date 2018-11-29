@@ -1,0 +1,14 @@
+{
+    "main_news":"Noticias",
+    "main_newsdesc":"Todas las noticias sobre Artifact desde las fuentes oficiales.",
+    "main_changelogs":"Cambios",
+    "main_changelogsdesc":"Cambios entre versiones.",
+    "main_deckscards":"Cartas",
+    "main_deckscardsdesc":"Herramienta para observar todas las cartas y mazos.",
+    "main_statistics":"Estadísticas",
+    "main_statisticsdesc":"Un montos de datos para que puedas tomar mejores decisiones.",
+    "main_config":"Configuración",
+    "main_configdesc":"Opciones sobre la aplicación.",
+    "main_about":"Sobre esto",
+    "main_aboutdesc":"Información relacionada con la app y yo."
+}

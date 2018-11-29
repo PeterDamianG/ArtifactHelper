@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Artifact Helper Decks/Cards</title>
+    <link href="css/goudytrajanfont.css" rel="stylesheet" type="text/css"/>
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="css/deckscards.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sidenav.css" rel="stylesheet" type="text/css"/>
+    <script src="js/fetching.js" defer></script>
+    <script src="js/sidenav.js" defer></script>
+    <script src="js/getcards.js" defer></script>
+  </head>
+  <body class="background_image deckscards">
+    <nav id="sidenav" style="top: 9vh;"></nav>
+    <section class="header_search">
+      <section class="subheader_search">
+          <button id="button_all" class="background_button"><img src="img/deckscards/button/all.png">
+            <h4>ALL</h4>
+          </button>
+      </section>
+      <section class="subheader_search">
+        <button id="button_hero" class="background_button"><img src="img/deckscards/button/hero.png">
+          <h4>HEROES</h4>
+        </button>
+        <button id="button_creep" class="background_button"><img src="img/deckscards/button/creep.png">
+          <h4>CREEPS</h4>
+        </button>
+        <button id="button_spell" class="background_button"><img src="img/deckscards/button/spell.png">          
+          <h4>SPEELS</h4>
+        </button>
+        <button id="button_improvement" class="background_button"><img src="img/deckscards/button/improvement.png">    
+          <h4>IMPROVEMENTS</h4>
+        </button>
+      </section>
+      <section class="subheader_search">
+        <button id="button_weapon" class="background_button"><img src="img/deckscards/button/weapon.png">         
+          <h4>WEAPONS</h4>
+        </button>
+        <button id="button_armor" class="background_button"><img src="img/deckscards/button/armor.png">          
+          <h4>ARMORS</h4>
+        </button>
+        <button id="button_accessory" class="background_button"><img src="img/deckscards/button/accessory.png">       
+          <h4>ACCESORIES</h4>
+        </button>
+        <button id="button_consumable" class="background_button"><img src="img/deckscards/button/consumable.png">     
+          <h4>CONSUMABLES</h4>
+        </button>
+      </section>
+      <section class="subheader_search">
+        <section class="subsection_change_flex">
+          <h4>COLOR</h4>
+          <button id="button_red" class="background_button" title="red"><img src="img/deckscards/button/red.png"></button>
+          <button id="button_blue" class="background_button" title="blue"><img src="img/deckscards/button/blue.png"></button>
+          <button id="button_green" class="background_button" title="green"><img src="img/deckscards/button/green.png"></button>
+          <button id="button_black" class="background_button" title="black"><img src="img/deckscards/button/black.png"></button>
+        </section>
+      </section>
+      <section class="subheader_search">
+        <section class="subsection_change_flex">
+          <h4>RARITY</h4>
+          <button id="button_basic" class="background_button" title="basic"><img src="img/deckscards/button/basic.png"></button>
+          <button id="button_common" class="background_button" title="common"><img src="img/deckscards/button/common.png"></button>
+          <button id="button_uncommon" class="background_button" title="uncommon"><img src="img/deckscards/button/uncommon.png"></button>
+          <button id="button_rare" class="background_button" title="rare"><img src="img/deckscards/button/rare.png"></button>
+        </section>
+      </section>
+    </section>
+    <section id="card_list"></section>
+    <section id="popup"></section>
+  </body>
+</html>

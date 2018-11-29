@@ -1,0 +1,14 @@
+{
+    "main_news":"News",
+    "main_newsdesc":"All news about Artifact from official web page.",
+    "main_changelogs":"ChangeLogs",
+    "main_changelogsdesc":"Changes between versions.",
+    "main_deckscards":"Decks/Cards",
+    "main_deckscardsdesc":"Tool to review and see complete cards and decks.",
+    "main_statistics":"Statistics",
+    "main_statisticsdesc":"A lot of data so you can make more effective decisions.",
+    "main_config":"Configuration",
+    "main_configdesc":"Options on the application.",
+    "main_about":"About",
+    "main_aboutdesc":"Information about application and me."
+}

@@ -1,0 +1,10 @@
+{
+    "config_header":"Opciones",
+    "config_selectlanguage":"Seleccionar Idioma:",
+    "config_displaynews":"Limite de noticias a mostrar:",
+    "config_displaychangelogs":"Limite de cambios a mostrar:",
+    "config_hardware":"Aceleración por Hardware:",
+    "button_default":"Opciones por Defecto",
+    "button_save":"Guardar Opciones",
+    "button_update":"Actualizar Lista de Cartas"
+}

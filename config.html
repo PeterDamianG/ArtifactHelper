@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Artifact Helper Config</title>
+    <link href="css/goudytrajanfont.css" rel="stylesheet" type="text/css"/>
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="css/config.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sidenav.css" rel="stylesheet" type="text/css"/>
+    <script src="js/fetching.js" defer></script>
+    <script src="js/sidenav.js" defer></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/translate.js" defer></script>
+  </head>
+  <body class="background_image config">
+    <h1 id="config_header"></h1>
+    <nav id="sidenav"></nav>
+    <section id="alert"></section>
+    <section class="background-options">
+      <span id="config_selectlanguage"></span>
+      <button id="button_spanish" class="right">Español</button>
+      <button id="button_english" class="right">English</button>
+    </section>
+    <section class="background-options">
+      <span id="config_displaynews"></span>   <span id="displaynews"></span>
+      <input type="range" id="newsrange" min="10" max="50"/>
+    </section>
+    <section class="background-options">
+      <span id="config_displaychangelogs"></span>   <span id="displaychangelogs"></span>
+      <input type="range" id="changelogsrange" min="10" max="50"/>
+    </section>
+    <section class="background-options">
+      <span id="config_hardware"></span>
+          <div class="right"><input id="hardware_acceleration" type="checkbox" value="ON/OFF"/></div>
+    </section>
+    </section>
+    <section class="background-options flexbutton">
+      <button id="button_default"></button>
+      <button id="button_save"></button>
+      <button id="button_update"></button>
+    </section>
+  </body>
+</html>

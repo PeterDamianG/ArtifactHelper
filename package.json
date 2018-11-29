@@ -1,19 +1,22 @@
 {
   "name": "artifacthelper",
-  "version": "0.0.1",
-  "description": "App for Artifact Dota 2 Card Game, helper about news, changelogs, cards, decks and game.",
+  "productName": "Artifact Helper",
+  "version": "0.1.0",
+  "description": "App for Artifact Dota 2 Card Game, helper about news, changelogs, cards, decks and more.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-packager . artifacthelper --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=PeterDG --version-string.FileDescription=ArtifactHelper --version-string.ProductName=\"Artifact Helper\""
   },
   "repository": {
     "type": "git",
-    "url": "no"
+    "url": "https://github.com/PeterDamianG/ArtifactHelper"
   },
   "keywords": [
     "Artifact",
     "Dota",
     "Card",
+    "Deck",
     "Game",
     "App",
     "Helper."
@@ -21,6 +24,10 @@
   "author": "Peter Damian Gomez",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.9"
+    "electron": "^3.0.10",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }

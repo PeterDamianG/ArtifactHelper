@@ -1,0 +1,10 @@
+{
+    "config_header":"Options",
+    "config_selectlanguage":"Select Language:",
+    "config_displaynews":"Display limit of News:",
+    "config_displaychangelogs":"Display limit of ChangeLogs:",
+    "config_hardware":"Hardware Acceleration:",
+    "button_default":"Set by default",
+    "button_save":"Save Settings",
+    "button_update":"Update Card List"
+}
