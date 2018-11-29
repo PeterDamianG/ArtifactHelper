@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="previewimages/logo.png" alt="logo" width="200">
+    <img src="previewimages/logo.png" alt="logo" width="400">
   <br>
   Artifact Helper Desktop
   <br>
@@ -25,6 +25,9 @@ Puedes descargar la última versión lanzada (recomendado). O puedes compilar y 
 **Visit the [Releases Page](https://github.com/PeterDamianG/ArtifactHelper/releases) to find the installer you need.**
 
 **Visita la [página de lanzamientos](https://github.com/PeterDamianG/ArtifactHelper/releases) para buscar el instalador o versión que necesites.**
+
+**Direct Downloads - Descargas Directas**
+[APP.exe](https://github.com/PeterDamianG/ArtifactHelper/releases/download/0.1.0/Artifact.Helper.App.exe), [APP.rar](https://github.com/PeterDamianG/ArtifactHelper/releases/download/0.1.0/Artifact.Helper.App.rar), [APP.zip](https://github.com/PeterDamianG/ArtifactHelper/releases/download/0.1.0/Artifact.Helper.App.zip)
 
 ### Packaging App (Unrecommended) - Empaquetando App (No Recomendado)
 
