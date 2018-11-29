@@ -1,0 +1,19 @@
+/* Font: Goudy Trajan*/
+@font-face {
+	font-family: 'Goudy Trajan';
+	src: url('../fonts/goudytrajan-regular-pro-webfont.ttf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Goudy Trajan';
+	src: url('../fonts/goudytrajan-medium-pro-webfont.ttf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Goudy Trajan';
+	src: url('../fonts/goudytrajan-bold-pro-webfont.ttf') format('opentype');
+	font-weight: bolder;
+	font-style: normal;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Goudy Trajan;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 5vh;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 5vh;
+    background-image: linear-gradient( #FFFFFF44 , rgba(255, 255, 255, 0.5));
+}
+h4 {
+    text-align: center;
+    color: aliceblue;
+}
+#background_video {
+    transform: scale(1.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.background_image {
+    height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+/*All background files*/
+.news {background-image: url("../img/newsbg.jpg");}
+.changelogs {background-image: url("../img/changelogsbg.jpg");}
+.config {background-image: url("../img/configbg.jpg");}
+.deckscards {background-image: url("../img/deckscards.jpg");}
+.statistics {background-image: url("../img/statistics.jpg");}
+.about {background-image: url("../img/about.jpg");}

@@ -1,0 +1,84 @@
+#button-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+#button-contain > section {
+    width: 20%;
+    margin: 5%;
+}
+@media only screen and (max-width: 1024px) {
+    #button-contain > section {
+        width: 27%;
+        margin: 6%;
+    }
+    .boxing.square.effect .info p {font-size: 2.75vh;}
+}
+@media only screen and (max-width: 800px) {
+    #button-contain > section {
+        width: 35%;
+        margin: 5%;
+    }
+}
+/*Button CSS*/
+.boxing {
+    position: relative;
+    transition: all 0.35s ease-in-out;
+    box-shadow: 2px 5px 8px #353434;
+}
+.boxing:hover {box-shadow: 6px 10px 16px #1f1e1e;}
+.boxing a {color: #333;}
+.boxing a:hover {text-decoration: none;}
+.boxing img {
+    width: 100%;
+    height: 100%;
+}
+.boxing.square {
+    border: 5px outset #fff;
+    border-radius: 10px;
+}
+.boxing.square .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.boxing.square.effect {overflow: hidden;}
+.boxing.square.effect .img {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.35);
+}
+.boxing.square.effect .info {
+    background: #333333;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.35s ease-in-out;
+}
+.boxing.square.effect .info h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 4vh;
+    padding: 4px;
+    background: #111111;
+    margin: 30px 0 0 0;
+    transform: scale(4);
+    transition: all 0.35s 0.1s ease-in-out;
+}
+.boxing.square.effect .info p {
+    font-style: italic;
+    font-size: 3vh;
+    position: relative;
+    color: #bbb;
+    padding: 20px 20px 20px;
+    text-align: center;
+    transform: scale(5);
+    transition: all 0.35s 0.3s linear;
+}
+.boxing.square.effect a:hover .img {transform: scale(1.2);}
+.boxing.square.effect a:hover .info {opacity: 1;}
+.boxing.square.effect a:hover .info h3,
+.boxing.square.effect a:hover .info p {transform: scale(1);}

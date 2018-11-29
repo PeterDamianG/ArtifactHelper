@@ -1,0 +1,103 @@
+.timeline {
+    position: relative;
+    padding: 3rem 0 3rem 0;
+    border: #f0f0f0;
+}
+.timeline:before {
+    content: "";
+    width: 8px;
+    height: 100%;
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    border: 2px outset #fff;
+}
+.timeline__group {position: relative;}
+.timeline__group:not(:first-of-type) {margin-top: 4rem;}
+.timeline__year {
+    padding: .5rem 1.5rem;
+    color: #fff;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 3px outset #fff;
+}
+.timeline__box {position: relative;}
+.timeline__box:not(:last-of-type) {margin-bottom: 30px;}
+.timeline__box:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    border: 2px outset #fff;
+}
+.timeline__date {
+    min-width: 65px;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    padding: .5rem 1.5rem;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    border: 5px outset #fff;
+}
+.timeline__day {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+}
+.timeline__month {
+    display: block;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+.timeline__post {
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(235, 235, 235), rgb(215, 215, 215));
+    margin: 0 3rem 0 3rem;
+    padding: 1.5rem 2rem;
+    border-radius: 3vh;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+    border: 0.25vh outset rgb(100, 100, 100);
+    transition: all 0.25s 0.2s ease-in-out;
+}
+.timeline__post:hover {filter: brightness(1.2);}
+@media screen and (min-width: 600px) {
+    .timeline:before {left: 30px;}
+    .timeline__group {padding-top: 55px;}
+    .timeline__box {padding-left: 80px;}
+    .timeline__box:before {
+      top: 50%;
+      transform: translateY(-50%);  
+    }  
+    .timeline__date {
+      top: 50%;
+      margin-top: -27px;
+    }
+}
+@media screen and (min-width: 768px){
+  html {font-size: 75%;}
+} 
+.page__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.items {
+    text-align: center;
+    font-size: 3vh;
+}
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    transition: all 0.35s 0.1s ease-in-out;
+}
+a:hover {
+    color: rgb(57, 57, 57);
+    text-shadow: 1px 1px;
+}
