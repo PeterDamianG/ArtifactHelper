@@ -8,6 +8,11 @@
 </h1>
 <h4 align="center">An app helper for Artifact.</h4>
 
+### Deprecated? - ¿Obsoleto?
+The application continues to work and as long as the valve base API does not change, it will continue to do so. But as long as Artifact continues in the limbo between abandoned and dead, I will not make any updates. Thank you.
+
+La aplicación sigue funcionando y mientras la API base de valve no cambie, lo seguira haciendo. Pero mientras Artifact continue en el limbo de entre abandonado y muerto, no haré ninguna actualización. Gracias.
+
 ### What Is It? - ¿Qué es esto?
 
 An unofficial application, for the game Artifact Card Game Dota 2. On the web (in-comming) and for the desktop, is an assistant with the purpose of providing the latest news, changeslogs, decks/cards and more.
